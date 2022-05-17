@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* design btn and scrollbar  */
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none!important;
+    box-shadow: none !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  /* Track */
+::-webkit-scrollbar-track {
+    background: darkgrey; 
+}
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(114, 114, 114); 
+}
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.navbar{
+  font-family: 'Open Sans', sans-serif!important;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+a {
+  color: #4154f1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #717ff5;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+
+.active{
+  color: #4154f1!important;
+  text-decoration: none!important;
+}

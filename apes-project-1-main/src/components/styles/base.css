@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+.liner{
+  width: 10rem;
+  border: 2px solid red;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.info-1{
+  background-color: #F1F1F1;
+  font-family: 'Rubik', sans-serif;
+  font-size: 7.5rem!important;
+}
+.info-3{
+  background-color: #F1F1F1;
+}
+.info-2{
+  background-color: #FFFFFF;
+}
+.info-head{
+  font-family: 'Rubik', sans-serif;
+  font-size: 2.5rem!important;
+}
+.head-footer{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.fa{
+  margin: .5rem;
+  font-size: 1.5rem;
+}
+.navbar-custom{
+  opacity: 2;
+  background-color: #f1f1f1;
+}
+@media screen and (min-width: 800px) {
+  .brand-de{
+    margin-left: 10rem;
+  }
+  .nav-de{
+    margin-right: 10rem;
+  }
+}
+
+.client{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  margin-top: 2rem;
+}
+.client-body{
+  background-color: #FEF20C;
+}

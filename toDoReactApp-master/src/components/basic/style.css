@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.head{
+  background-color: #666666;
+  color: floralwhite;
+  text-align: center;
+  height:2.5em;
+  padding:15px 15px 0 15px;
+  font-size: 2.4em;
+
+}
+
+
+/* Welcome */
+.main-body{
+  background-color: #334552;
+  color:#dadfe8;
+  padding: 10px 10px 15px 10px;
+
+  margin: 75px 5px 40px 15px;
+  width:85%;
+  height: auto;
+  border:2px solid black;
+  box-shadow: 2px 5px 16px 0px #0B325E,
+              6px 7px 5px 10px rgba(115,59,255,0);
+
+  padding-left: 5px;
+
+  margin-left: 75px;
+}
+
+
+@media (max-width:600px) {
+  .main-body{
+    margin-left: 25px;
+    width: 90%;
+  }
+}
+
+.user{
+  text-decoration: underline;
+  color:floralwhite;
+}
+.body-text{
+  padding: 7px;
+  font-size: 40px;
+  color: antiquewhite;
+}
+/* Time and login */
+.loginn{
+  padding:5px 0 5px 5px;
+  font-weight: 100;
+  font-family: 'Roboto',sans-serif;
+
+}
+.login-btn{
+  box-shadow:inset -1px -2px 4px 0px #f29c93;
+	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+	background-color:#fe1a00;
+	border-radius:5px;
+	border:2px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:8px 20px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #b23e35;
+  margin-bottom: 5px;
+}
+
+.login-btn:hover{
+  background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
+	background-color:#ce0100;
+}
+
+.login-btn:active{
+  position:relative;
+	top:1px;
+}
+.timer{
+  color: #334552;
+  height:40px;
+  text-align: right;
+  font-weight: 300;
+  font-family: 'Roboto',sans-serif;
+  margin-top: 10px;
+  padding: 5px;
+
+}
+
+/* Footer Styles */
+.footer-style{
+  background-color: lightgrey;
+  margin-top: 10px;
+  height:250px;
+}
+.foot-text{
+  text-align: center;
+  font-family: cursive;
+  font-size: 20px;
+}
+.like-area{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #002300;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: green}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightgrey;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: lightgrey;
+  margin: 1px;
+  padding: 20px;
+  font-size: 30px;
+  width:50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-body ul{
+  list-style:square;
+  padding-left: 25px;
+  letter-spacing: 1px;
+}
+h3{
+  padding:5px;
+}

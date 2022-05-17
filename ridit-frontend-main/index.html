@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- imp meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <meta name="keywords" content="..">
+    <meta name="author" content="..">
+  <!-- styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/f16998d44c.js"></script>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/main.css">
+  <title>RIDIT</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar  navbar-expand-md navbar-light bg-custom fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-sm-5" href="#">
+        Ridit
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#NSC" aria-controls="NSC" aria-expanded="false"
+              aria-label="Toggle navigation"
+      >
+      <!-- icon of the button on mobile -->
+        <span class="navbar-toggler-icon"></span>  
+      </button>
+      
+      <div class="collapse navbar-collapse" id="NSC">
+        <ul class="navbar-nav me-auto ">
+        </ul>
+        
+        <ul class='navbar-nav'>
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Our Services</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- landing page -->
+  <div class="container-fluid d-none d-md-block  " id="home">
+    <div class="row align-items-center">
+      
+      <div class="col-12 col-md-5 offset-md-1 mt-sm-5">
+        <h1 class=' post-title mt-4 mb-5'> Ridit - Ride it like it's yours  </h1>
+        <h4 >we make your drive comfortable,memorable and pocket-friendly.</h4>
+      </div>
+
+      <div class="col-12 col-md-6 mt-sm-5 mb-5">
+        <img src="./images/hero-poster.svg" alt="poster" class="mt-sm-5 img-fluid img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <!-- mobile landing -->
+  <div class="container-fluid  d-xs-block d-sm-block d-md-none " id="home">
+    <div class="row align-items-center">
+      
+      <div class="col-12 col-md-6 mt-5 mb-3">
+        <img src="./images/hero-poster.svg" alt="poster" class="mt-sm-5 img-fluid img-responsive">
+      </div>
+
+      <div class="col-12 col-md-5 offset-md-1 mt-sm-5 mb-5">
+        <h1 class=' post-title mt-4 mb-5'> Ridit - Ride it like it's yours  </h1>
+        <h4 >we make your drive comfortable,memorable and pocket-friendly.</h4>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- single page application || single container application -->
+  <div class="container-fluid" >
+
+    <div class="row text-center  align-items-center justify-content-center" id='about'>
+      <div class="col-12 mt-4 mb-4">
+        <h1 class='about-head mb-2 mt-5' >
+          About Us
+        </h1>
+          
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="row">
+          <div class="col-12">
+            <h2>
+              We work with top rental vehicles providers
+            </h2>
+          </div>
+          
+          <div class="col-6 mt-3 mb-3"> 
+                <img class="img-fluid img-responsive about-imgs  m-2" src="./images/cash-payment.svg" alt="" />
+                <h5>Affordable</h5>
+          </div>
+          <div class="col-6 mt-3 mb-3"> 
+                <img class="img-fluid img-responsive about-imgs m-2" src="./images/shield.svg" alt="" />
+                <h5>Reliable</h5>
+            </div>
+            <div class="col-6 mt-3 mb-3">
+                <img class="img-fluid img-responsive about-imgs m-2" src="./images/clock.svg" alt="" />
+                <h5>Up-to-date</h5>
+            </div>
+            <div class="col-6 mt-3 mb-3">
+                <img class="img-fluid img-responsive about-imgs m-2" src="./images/car.svg" alt="" />
+                <h5>Top categories</h5>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-6 about-text">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#Thome" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#Tprofile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#Tcontact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+          </li>
+        </ul>
+        
+        
+        
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="Thome" role="tabpanel" aria-labelledby="home-tab">
+            We are on mission to provide you the best services related to driving schools, chauffeur, Legal paper works and many more. <br>
+            <a href="#" class="about-link" target="_blank" rel="noopener noreferrer">Chauffeur</a> :-Ridit brings you the most elite Professional chauffeur services all around India. Comfort is something that is never compromised when travelling in our Chauffeur driven luxury cars.
+            Ridit provides you with the Finest chauffeurs that has everything it takes to deliver a top-class service.
+          </div>
+          <div class="tab-pane fade" id="Tprofile" role="tabpanel" aria-labelledby="profile-tab">
+            <a href="#" class="about-link" target="_blank" rel="noopener noreferrer">Driving School</a>:- Learning how to drive successfully is a daunting task, but an important one nonetheless.After all in driving it’s not just about you, but the safety of others on the road as well.
+            One needs professional training, which one can get only at a driving school. How many of us can confidently claim that they can clear a traffic signs test? The fact is very few.
+            We go beyond teaching just the controls of the car. We believe on teaching our learners how to use those controls effortlessly. We teach our learners to respect other driver’s rights while understanding the responsibilities of a driver.
+          </div>
+          <div class="tab-pane fade" id="Tcontact" role="tabpanel" aria-labelledby="contact-tab">
+            <a href="#" class="about-link" target="_blank" rel="noopener noreferrer">PUC</a>:- Pollution Under Control (PUC) Certificate. The PUC test assesses the emission of a vehicle and checks if it follows the standard pollution regulation. In India, a valid driving license, insurance coverage and a Pollution Under Control Certificate are legal mandatory requirements for a car.
+          Insurance:-We are on a mission to provide you the best insurance available at the best prices for you.
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+
+    <div class="row mt-5 title-banner" id='services'>
+      <div class="col-12 text-center mt-5 mb-5 align-items-center">
+        <h1 class="mt-3">Our Services</h1>
+				<!-- <h2 class='mb-3'>Feel free to keep in touch with us!</h2> -->
+      </div>
+    </div>
+
+
+    <div class="row text-center mt-5 align-items-center" >
+      <div class="col-12 col-sm-3 offset-md-1 me-md-5 mt-4">
+        <a class='nav-link' href=".html"> 
+        <div class="card">
+          <img src="./images/undraw_subway_7vh7.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Book a Ride !</h5>
+            <!-- <p class="card-text">We provide best and most comfortable service.</p> -->
+          </div>
+        </div>
+        </a>
+      </div>
+      
+      <div class="col-12 col-sm-3 me-md-5 mt-4 ">
+        <a class='nav-link' href=".html"> 
+        <div class="card">
+          <img src="./images/undraw_fast_car_p4cu (1).svg"  class="card-img-top " alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Driving School</h5>
+            <!-- <p class="card-text">Learn  driving the right way ! </p> -->
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 mt-4">
+        <a class='nav-link' href=".html"> 
+        <div class="card">
+          <img src="./images/undraw_electric_car_b7hl (1).svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chauffeur</h5>
+            <!-- <p class="card-text">Join our best service team.</p> -->
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-3 offset-md-1 mt-4 me-md-5">
+        <a class='nav-link' href="puc.html"> 
+        <div class="card">
+          <img src="./images/undraw_Order_ride_re_372k (1).svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PUC & RTO </h5>
+            <!-- <p class="card-text">We provide you best and smooth assistance in all legialities</p> -->
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 mt-4 me-md-5">
+        <a class='nav-link' href=".html"> 
+        <div class="card">
+          <img src="./images/undraw_certification_aif8.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Insurance</h5>
+            <!-- <p class="card-text">Insurance is neccessary whether its health,money or you vehicle</p> -->
+          </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-12 col-sm-3 mt-4">
+        <a class='nav-link' href=".html"> 
+        <div class="card">
+          <img src="./images/undraw_Documents_re_isxv (1).svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SVI</h5>
+            <!-- <p class="card-text">We assist you with all information you need to know</p> -->
+          </div>
+        </div>
+        </a>
+      </div>
+    </div>
+
+
+    <!-- contact -->
+    <div class="row mt-5 title-banner" id='contact'>
+      <div class="col-12 text-center mt-5 mb-5 align-items-center ">
+        <h1 class="mt-3">Contact Us</h1>
+				<h2 class='mb-3'>Feel free to keep in touch with us!</h2>
+      </div>
+    </div>
+
+
+    <div class="row contact-container mt-2" >
+      <div class="col-12 col-md-4 offset-md-1 mt-4">
+        <ul class="list-group" id="contact-list">
+          <li class='list-group-item'>
+            <img
+              style="height: 49px; width: 49px"
+              src="./images/phone.svg"
+              alt=""
+            /> +918519082411
+          </li>
+          <li class='list-group-item'>
+            <img
+              style="height: 49px; width: 49px"
+              src="./images/email.svg"
+              alt=""
+            /> spotmobility@gmail.com
+          </li>
+          <li class='list-group-item'>
+            <img
+              style="height: 49px; width: 49px"
+              src="./images/location.svg"
+              alt=""
+            /> 32 ahata Sikandar kuli, Bhopal, 462008
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6 mt-4">
+        <form>
+            <div class="form-floating mt-4 mb-2">
+              <input type="text" class="form-control" id="floatingInput" placeholder="Your Full Name">
+              <label for="floatingInput">Name</label>
+            </div>
+
+            
+            <div class="form-floating mb-2 ">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+
+            
+            <div class="form-floating mb-2">
+              <input type="tel" class="form-control" id="floatingPassword" placeholder="Mobile Number">
+              <label for="floatingPassword">Mobile Number</label>
+            </div>
+            
+            <div class="form-floating mb-2">
+              <textarea class="form-control" placeholder="Leave your message here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+          
+          
+          
+            <button class="btn btn-lg btn-outline-primary mt-3 mb-4" type="submit">Send Message</button>
+          </form>
+        
+      </div>
+    </div>
+
+    <div class="row mt-5 footer ">
+      <div class="col-12 col-sm-4 text-center align-items-center">
+        <h4>
+          Ridit
+        </h4>
+        <ul class="nav ms-sm-5">
+          <li>
+            <a  class="nav-link" rel="nofollow" href="https://m.facebook.com/spotrentalco/"
+              ><i class="fa fa-facebook-square"></i
+            ></a>
+          </li>
+          <li>
+            <a class="nav-link" rel="nofollow" href="https://mobile.twitter.com/spotrentalco?lang=en"
+              ><i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a class="nav-link" rel="nofollow" href="https://www.linkedin.com/company/spotrental">
+              <i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a class="nav-link" rel="nofollow" href="https://www.instagram.com/spotrental/?hl=en">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-sm-4">
+        <h4>Our Services</h4>
+        <ul>
+          <li> <a href="booking.html">Booking</a> </li>
+          <li> <a href="driving.html">Driving School</a> </li>
+          <li> <a href="chauffeur.html">Chauffeurs</a> </li>
+          <li> <a href="puc.html">PUC & RTO </a> </li>
+          <li> <a href="insurance.html">Insurance </a> </li>
+          <li> <a href="svi.html">SVI & Traffic rules</a></li>
+          <li> <a href="TNC.html">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-sm-4">
+        <h4>Useful Links</h4>
+        <ul>
+          <li> <a href="#home">Home</a> </li>
+          <li> <a href="#about">About</a> </li>
+          <li> <a href="#services">Services</a> </li>
+          <li> <a href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+      
+      <div class="col-12 mt-4 mb-4 text-center">
+        Copyright © 2021 S19 Mobility Pvt Ltd.
+      </div>
+    </div>
+
+  <!-- main container -->
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="./scripts/base.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,163 @@
+#nav{
+    background-color: #f8f8f8;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    color: #000;
+    z-index: 99;
+}
+.logo{
+    height: auto;
+    display: flex;
+    padding-top: 7px;
+}
+.logo a img{
+    height: auto;
+    width: 100%;
+    padding-top: 3px;
+}
+.logo a {
+    width: 23%;
+}
+.register {
+    list-style-type: none;
+     display: flex;
+    margin-top: 9px;
+} 
+.register li {
+	background-color: #000;
+	margin-left: 20px;
+	padding: 4px;
+	border-radius: 8px;
+}
+.register li a {
+	text-decoration: none;
+	font-weight: 410;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 18px;
+    color: #fff;
+    padding: 33px;
+}
+.register li a:hover{
+   color: aqua;
+}
+.register li:last-child {
+    background-color: #a71414;
+}
+.menulist{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-top: 9px;
+}
+.menulist li a {
+	text-decoration: none;
+	color: #000;
+	padding: 0px 14px;
+	font-weight: 400;
+	margin-left: 0px;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 16px;
+	border-left: 1px solid #000;
+}
+.menulist li a:hover,
+.menulist li a:active
+{
+    background-color: #a71414;
+    color: #fff;
+    transition:  all 0.5s ease-in-out;
+    border-radius: 2px;
+}
+.menu-icon{
+    display: none;
+}
+@media screen and (max-width:800px){
+
+}
+
+@media screen and (max-width:600px){
+  .menu-icon{
+      display: block;
+  } 
+  .menulist {
+	flex-direction: column;
+	width: 100%;
+	position: absolute;
+	padding: 20px;
+	right: 0;
+	top: 64px;
+	transition: all 0.5s ease-in-out;
+	z-index: 4444;
+	background: #000;
+	opacity: 0.9;
+}
+  .menulist li {
+      margin-bottom: 20px;
+      width: 100%;
+      text-align: center;
+  }
+  .menulist li a {
+	width: 130px;
+	display: block;
+	margin: auto;
+	border-left: none;
+	color: #fff;
+}
+.fa{
+    cursor: pointer;
+}
+.menu-icon {
+	padding-top: 6px;
+	position: absolute;
+	right: 10px;
+}
+.menu-icon .fa-bars{
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in-out;
+    font-size: 26px;
+}
+.logo a img {
+	height: 29px;
+	padding-top: 6px;
+}
+
+.menulist.close {
+   right: 100%;
+   transition:all 0.5s ease-in-out;
+}
+
+
+.register {
+	list-style-type: none;
+	display: flex;
+	margin-top: 0px;
+	position: absolute;
+	top: 2rem;
+	right: 61px;
+}
+.register li {
+	background-color: #000;
+	margin-left: 7px;
+	padding: 0px 0 3px 0;
+	border-radius: 7px;
+}
+.register li a {
+	text-decoration: none;
+	font-weight: 410;
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	padding: 13px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+

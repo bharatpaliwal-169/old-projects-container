@@ -1,0 +1,105 @@
+.header{
+    background-color: darkgrey;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 25px;
+    height: 5em;
+    
+}
+
+
+.result{
+    height: 5em;
+    width: 100%;
+    color: floralwhite;
+    background-color: black;
+    padding: 7px;
+    overflow: hidden;
+}
+
+.result p {
+    font-size: 40px;
+    margin: 5px;
+    
+}
+.keypad{
+    display : flexbox;
+    width: 100%;
+    height: 1vh;
+}
+button{
+    width:24.9%;
+    height:60px;
+    font-size:30px;
+    color: ghostwhite;
+    background-color: #282c34;
+    outline: none;
+    border: 1px solid #888;
+    border-radius: 3px;
+
+}
+
+.op{
+    background-color: #F95531;
+    border-radius: 5px;
+}
+.op:active{
+    background-color: red;
+}
+
+
+.CA{
+    background-color: #F50F0F;
+    border-radius: 5px;
+}
+
+.CA:active{
+    background-color:#FB674A;
+}
+
+.num{
+    background-color:#282c34;
+    border-radius: 3.1px;
+}
+.num:active{
+    background-color: rgb(127, 161, 161);
+}
+
+
+/* Footer */
+.footer-style{
+    background-color: lightgrey;
+    margin-top: 10px;
+    height:250px;
+  }
+  .foot-text{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+  }
+  .flex-container {
+    display: flex;
+    background-color: lightgrey;
+    justify-content: center;
+    margin-top: 400px;
+  }
+  
+  .flex-container > div {
+    background-color: lightgrey;
+    margin: 1px;
+    padding: 20px;
+    font-size: 30px;
+    width:80%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-body ul{
+    list-style:square;
+    padding-left: 25px;
+    letter-spacing: 1px;
+  }
+  h3{
+    padding:5px;
+  }

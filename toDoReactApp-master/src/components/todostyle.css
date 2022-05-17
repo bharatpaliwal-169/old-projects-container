@@ -1,0 +1,134 @@
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  padding:30px;
+  margin:auto;
+  justify-content: center;
+  align-items: center;
+  width:85%;
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: -10px 0px 13px -7px #000000,
+   10px 0px 13px -7px #000000,
+    -12px 17px 15px -23px
+   rgba(255,255,238,0.45);
+
+}
+
+@media (max-width:600px) {
+  .todo-list{
+    width:91%;
+    padding : 10px;
+    margin-right: 5px;
+    margin-left: 23px;
+  }
+  .add{
+    margin-left: 1px;
+
+  }
+}
+
+.todo-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 16px;
+  color: #333333;
+}
+
+.todo-item .theList{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 60%;
+}
+
+.todo-item .theList li{
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+}
+
+ul.theList{
+  padding: 0;
+}
+
+input[type=text]{
+  padding: 10px;
+  margin-right: 15px;
+  font-size: 16px;
+  border: 2px solid black;
+  width: 350px;
+  background-color: lightgrey;
+
+}
+
+@media (max-width:700px) {
+  input[type=text]{
+    padding: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    border: 2px solid black;
+    width: 70%;
+    background-color: lightgrey;
+  }
+  .todo-item .theList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .todo-item .theList li{
+    color: #333;
+    background-color: rgba(255,255,255,.5);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+  }
+
+  ul.theList{
+    padding: 0;
+  }
+
+}
+
+.add {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:  #0066FF;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px lightgrey;
+}
+
+.add:hover {background-color: #003399}
+
+.add:active {
+  background-color: #003399;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+.todo-heading{
+  padding: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 30px;
+}

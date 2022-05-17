@@ -1,0 +1,46 @@
+.profile-navbar{
+  background-color: #101010;
+  color: #f1f1f1;
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family :'Segoe UI', sans-serif;
+  justify-content: center;
+}
+.profile-navbar a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.profile-navbar a:hover{
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.download{
+  background-color: rgb(60, 138, 255);
+}
+
+.headapp{
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  color : #f7f7f7!important;
+  margin-top : 1rem;
+}
+
+
+.card{
+  border: none!important;
+  border-radius: 27px!important;
+  background-color: rgb(174, 237, 253)!important;
+}
+
+.card-title{
+  color: #161b46!important;
+  font-size: 2rem!important;
+}
+
+.blueBank{
+  height: 10vh;
+  background-color: #2533b3;
+}

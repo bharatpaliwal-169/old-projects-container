@@ -1,0 +1,332 @@
+@media(min-width:1400px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media(max-width:1199px) {
+    .mission_rht {
+        padding-left: 60px;
+    }
+
+    .ourPresence .row {
+        margin-right: -30px;
+    }
+
+    .contact_inner img {
+        opacity: 0.6;
+    }
+}
+
+
+@media(max-width:991px) {
+    .menu_box{
+        display: none;
+    }
+
+    .about_banner .material-icons {
+        bottom: 10px;
+    }
+
+    .hamburge_icon {
+        display: block;
+        margin-left: 20px;
+        top: -3px;
+    }
+
+    .mission_rht img {
+        max-width: 200px;
+    }
+
+    .founter_img img {
+        max-width: 290px;
+    }
+
+    .founder_notes {
+        padding-top: 10px;
+    }
+
+    .main_heading {
+        font-size: 38px;
+    }
+
+
+    /* contact us page */
+    .contact_inner br {
+        display: none;
+    }
+
+    .chat_now,
+    .contactTypes {
+        padding: 0;
+    }
+
+
+    /* doctor's profile page */
+    .top_search_box input {
+        width: 150px;
+    }
+}
+
+
+@media(max-width:767px) {
+    .about_banner h1 {
+        font-size: 42px;
+    }
+
+    .mission_vission,
+    .founder_notes {
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+
+    .mission_vission .mission_rht {
+        position: relative;
+        max-width: 330px;
+        margin-left: auto;
+    }
+
+    .offer {
+        padding-top: 50px;
+    }
+
+    .founter_img {
+        position: relative;
+        max-width: 350px;
+    }
+
+    .founder_txt {
+        max-width: 100%;
+        margin-left: unset;
+        padding-left: 50px;
+        padding-bottom: 90px;
+    }
+
+    .ourPresence .row {
+        margin:0 -15px;
+    }
+
+    .ourPresence .col-md-6 {
+        padding: 0 15px;
+    }
+
+    .quotes_text::before {
+        top: -15px;
+        left: -44px;
+        transform: scale(0.3);
+    }
+
+    .ourPresence .col-md-6 {
+        margin-bottom: 30px;
+    }
+
+    .ourPresence {
+        margin-bottom: 20px;
+    }
+
+    .locations h4 {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        padding: 30px 0 30px;
+    }
+
+
+    /* contact us page */
+    .contact_inner img {
+        opacity: 0.4;
+    }
+    
+    .border_right {
+        border:none;
+    }
+
+    #support24 {
+        margin: 20px 0;
+    }
+
+
+    /* doctor's profile page */
+    .top_search_box ul li {
+        color: #000;
+    }
+
+    .top_search_box ul li:not(:nth-child(3)) {
+        border-right: 2px solid #000;
+    }
+
+    .profile_sec_rht {
+        padding-top: 30px;
+    }
+
+    .other_details ul {
+        display: block;
+    }
+
+    .main_heading3 {
+        font-size: 20px;
+    }
+
+    .top_search_box ul li {
+        font-size: 16px;
+    }
+
+    .other_details ul li {
+       border-width: 0px 15px 15px 15px;
+    }
+
+    .other_details ul li:nth-child(1) {
+        border-top: 15px solid #efeefc;
+    }
+
+    /* privacy & policy page */
+    .privacy_content_lft {
+        margin-bottom: 30px;
+    }
+    
+}
+
+@media(max-width:575px) {
+    .founder_notes {
+        padding-top: 10px;
+    }
+
+    .about_banner img {
+        max-width: 150px;
+    }
+
+    .main_heading {
+        font-size: 34px;
+    }
+
+    .ourPresence {
+        padding-bottom: 0;
+    }
+    .sidebar .menu li a {
+        padding: 5px 25px;
+    }
+}
+
+
+@media(max-width:560px) {
+    .about_banner h1 {
+        font-size: 36px;
+    }
+
+    .about_banner h1 br {
+        display: none ;
+    }
+
+    br {
+        display: none;
+    }
+
+    .mission_vission p::before {
+        transform: translateY(-50%) scale(0.8);
+    }
+
+    .app_download a {
+        padding: 10px 15px;
+    }
+
+    .app_download a img {
+        max-width: 20px;
+    }
+
+    .app_download {
+        padding: 40px 0 40px;
+    }
+
+    .about_banner .container-fluid {
+        min-height: 70vh;
+    }
+    .main_heading {
+        font-size: 30px;
+    }
+
+    .ourPresence .gradient_border + .row .col-md-6 .quotes_text,
+    .ourPresence .gradient_border + .row .col-md-6 .quotes_text + span{
+        padding-left: 30px;
+    }
+
+    .quotes_text::before {
+        transform: scale(0.4);
+    }
+
+    .ourPresence .gradient_border + .row .col-md-6 .quotes_text::before {
+        left: -14px;
+
+    }
+
+    /* contact page */
+    .contact_inner img {
+        display: none;
+    }
+
+    /* doctor's profile page */
+    .top_search_box {
+        display: block!important;
+    }
+
+    .top_search_box ul {
+        margin-bottom: 20px;
+    }
+
+    .top_search_box input {
+        width: 100%;
+    }
+}
+
+@media(max-width:414px) {
+    .header .logo {
+        width: 90px;
+    }
+
+    .header_rht button {
+        padding: 3px 15px 4px;
+        font-size: 13px;
+    }
+
+    .main {
+        margin-top: 70px;
+    }
+
+    .about_banner img {
+        max-width: 100px;
+    }
+
+    .main_heading {
+        font-size: 28px;
+    }
+
+    .offer h3 {
+        margin: 30px 0 10px;
+    }
+
+    .main_heading2 {
+        font-size: 24px;
+    }
+
+    .offer {
+        padding-bottom: 30px;
+    }
+
+    .founder_txt {
+        padding-left: 25px;
+    }
+
+    .ourPresence .gradient_border + .row .col-md-6 .quotes_text + span {
+        font-size: 13px;
+    }
+
+
+    /* contact page */
+    .typeOfContact_inr {
+        padding: 30px 20px;
+    }
+
+
+    
+}

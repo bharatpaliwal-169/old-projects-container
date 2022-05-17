@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.card-img-top-main{
+  height: 12rem!important;
+}
+
+.login-head{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.fa-bars{
+  color: #ffffff;
+  padding: 0.20rem;
+  font-size: 2rem;
+}
+
+.course-title{
+  color: #ffffff;
+  background-color: #014369;
+  font-family: 'Times New Roman', Times, serif;
+}
+.about{
+  font-family: 'Roboto', sans-serif;
+}
+.body-clr{
+  background-color: rgb(109, 167, 255);
+}
