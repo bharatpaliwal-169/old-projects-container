@@ -4,8 +4,8 @@ import '../styles/media.css'
 import '../styles/globals.css'
 import { Provider } from "react-redux";
 import Store from "../Redux/store"
-// import {createBrowserHistory} from 'history';
-// const history = createBrowserHistory();
+import {createBrowserHistory} from 'history';
+const history = createBrowserHistory();
 function App({ Component, pageProps }) {
   return (
     <Provider store={Store}>

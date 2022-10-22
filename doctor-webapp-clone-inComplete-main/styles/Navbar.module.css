@@ -1,153 +1,153 @@
 #nav{
-    background-color: #f8f8f8;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    color: #000;
-    z-index: 99;
+    background-color: #f8f8f8!important;
+    display: flex!important;
+    padding: 20rem!important;
+    justify-content: space-between!important;
+    color: #000!important;
+    z-index: 99!important;
 }
 .logo{
-    height: auto;
-    display: flex;
-    padding-top: 7px;
+    height: auto!important;
+    display: flex!important;
+    padding-top: 7rem!important;
 }
 .logo a img{
-    height: auto;
-    width: 100%;
-    padding-top: 3px;
+    height: auto!important;
+    width: 100%!important;
+    padding-top: 3rem!important;
 }
 .logo a {
-    width: 23%;
+    width: 23%!important;
 }
 .register {
-    list-style-type: none;
-     display: flex;
-    margin-top: 9px;
+    list-style-type: none!important;
+     display: flex!important;
+    margin-top: 9rem!important;
 } 
 .register li {
-	background-color: #000;
-	margin-left: 20px;
-	padding: 4px;
-	border-radius: 8px;
+	background-color: #000!important;
+	margin-left: 20rem!important;
+	padding: 4rem!important;
+	border-radius: 8rem!important;
 }
 .register li a {
-	text-decoration: none;
-	font-weight: 410;
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 18px;
-    color: #fff;
-    padding: 33px;
+	text-decoration: none!important;
+	font-weight: 410!important;
+	font-family: 'IBM Plex Sans', sans-serif!important;
+	font-size: 18rem!important;
+    color: #fff!important;
+    padding: 33rem!important;
 }
 .register li a:hover{
-   color: aqua;
+   color: aqua!important;
 }
 .register li:last-child {
-    background-color: #a71414;
+    background-color: #a71414!important;
 }
 .menulist{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    padding-top: 9px;
+    list-style-type: none!important;
+    display: flex!important;
+    align-items: center!important;
+    padding-top: 9rem!important;
 }
 .menulist li a {
-	text-decoration: none;
-	color: #000;
-	padding: 0px 14px;
-	font-weight: 400;
-	margin-left: 0px;
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 16px;
-	border-left: 1px solid #000;
+	text-decoration: none!important;
+	color: #000!important;
+	padding: 0rem 14rem!important;
+	font-weight: 400!important;
+	margin-left: 0rem!important;
+	font-family: 'IBM Plex Sans', sans-serif!important;
+	font-size: 16rem!important;
+	border-left: 1rem solid #000!important;
 }
 .menulist li a:hover,
 .menulist li a:active
 {
-    background-color: #a71414;
-    color: #fff;
-    transition:  all 0.5s ease-in-out;
-    border-radius: 2px;
+    background-color: #a71414!important;
+    color: #fff!important;
+    transition:  all 0.5s ease-in-out!important;
+    border-radius: 2rem!important;
 }
 .menu-icon{
-    display: none;
+    display: none!important;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:800rem){
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600rem){
   .menu-icon{
-      display: block;
+      display: block!important;
   } 
   .menulist {
-	flex-direction: column;
-	width: 100%;
-	position: absolute;
-	padding: 20px;
-	right: 0;
-	top: 64px;
-	transition: all 0.5s ease-in-out;
-	z-index: 4444;
-	background: #000;
-	opacity: 0.9;
+	flex-direction: column!important;
+	width: 100%!important;
+	position: absolute!important;
+	padding: 20rem!important;
+	right: 0!important;
+	top: 64rem!important;
+	transition: all 0.5s ease-in-out!important;
+	z-index: 4444!important;
+	background: #000!important;
+	opacity: 0.9!important;
 }
   .menulist li {
-      margin-bottom: 20px;
-      width: 100%;
-      text-align: center;
+      margin-bottom: 20rem!important;
+      width: 100%!important;
+      text-align: center!important;
   }
   .menulist li a {
-	width: 130px;
-	display: block;
-	margin: auto;
-	border-left: none;
-	color: #fff;
+	width: 130rem!important;
+	display: block!important;
+	margin: auto!important;
+	border-left: none!important;
+	color: #fff!important;
 }
 .fa{
-    cursor: pointer;
+    cursor: pointer!important;
 }
 .menu-icon {
-	padding-top: 6px;
-	position: absolute;
-	right: 10px;
+	padding-top: 6rem!important;
+	position: absolute!important;
+	right: 10rem!important;
 }
 .menu-icon .fa-bars{
-    transform: rotate(180deg);
-    transition: all 0.2s ease-in-out;
-    font-size: 26px;
+    transform: rotate(180deg)!important;
+    transition: all 0.2s ease-in-out!important;
+    font-size: 26rem!important;
 }
 .logo a img {
-	height: 29px;
-	padding-top: 6px;
+	height: 29rem!important;
+	padding-top: 6rem!important;
 }
 
 .menulist.close {
-   right: 100%;
-   transition:all 0.5s ease-in-out;
+   right: 100%!important;
+   transition:all 0.5s ease-in-out!important;
 }
 
 
 .register {
-	list-style-type: none;
-	display: flex;
-	margin-top: 0px;
-	position: absolute;
-	top: 2rem;
-	right: 61px;
+	list-style-type: none!important;
+	display: flex!important;
+	margin-top: 0rem!important;
+	position: absolute!important;
+	top: 2rem!important;
+	right: 61rem!important;
 }
 .register li {
-	background-color: #000;
-	margin-left: 7px;
-	padding: 0px 0 3px 0;
-	border-radius: 7px;
+	background-color: #000!important;
+	margin-left: 7rem!important;
+	padding: 0rem 0 3rem 0!important;
+	border-radius: 7rem!important;
 }
 .register li a {
-	text-decoration: none;
-	font-weight: 410;
-	font-family: 'IBM Plex Sans', sans-serif;
-	font-size: 13px;
-	color: #fff;
-	padding: 13px;
+	text-decoration: none!important;
+	font-weight: 410!important;
+	font-family: 'IBM Plex Sans', sans-serif!important;
+	font-size: 13rem!important;
+	color: #fff!important;
+	padding: 13rem!important;
 }
 
 

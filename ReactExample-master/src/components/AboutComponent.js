@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom';
 
 function About(props) {
 
-    // const leaders = props.leaders.map((leader) => {
-    //     return (
-    //         <p>Leader {leader.name}</p>
-    //     );
-    // });
+    const leaders = props.leaders.map((leader) => {
+        return (
+            <p>Leader {leader.name}</p>
+        );
+    });
 
     return(
         <div className="container">
             <div className="row">
-                {/* <Breadcrumb>
+                <Breadcrumb>
                     <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>About Us</BreadcrumbItem>
-                </Breadcrumb> */}
+                </Breadcrumb>
                 <div className="col-12">
                     <h3>About Us</h3>
                     <hr />
@@ -34,14 +34,14 @@ function About(props) {
                         <CardHeader className="bg-primary text-white">Facts At a Glance</CardHeader>
                         <CardBody>
                             <dl className="row p-1">
-                                <dt className="col-6">Started</dt>
-                                <dd className="col-6">3 Feb. 2013</dd>
                                 <dt className="col-6">Major Stake Holder</dt>
+                                <dd className="col-6">3 Mar. 2013</dd>
+                                {/* <dt className="col-6">Started</dt>
                                 <dd className="col-6">HK Fine Foods Inc.</dd>
                                 <dt className="col-6">Last Year's Turnover</dt>
                                 <dd className="col-6">$1,250,375</dd>
                                 <dt className="col-6">Employees</dt>
-                                <dd className="col-6">40</dd>
+                                <dd className="col-6">40</dd> */}
                             </dl>
                         </CardBody>
                     </Card>
@@ -61,12 +61,12 @@ function About(props) {
                     </Card>
                 </div>
             </div>
-            {/* <div className="row row-content">
+            <div className="row row-content">
                 <div className="col-12">
-                    <h2>Corporate Leadership</h2>
+                    <h4>Corporate Leadership</h4>
                 </div>
                 
-            </div> */}
+            </div>
         </div>
     );
 }
