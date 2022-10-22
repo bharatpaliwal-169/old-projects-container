@@ -8,8 +8,11 @@ class Footer extends Component{
       <footer className='footer-style'>
         <div className='flex-container'>
           <div>
-            <p className='foot-text '> C&D : Bharat Paliwal </p>
+            <p className='foot-text'> C&D : Divya Paliwal </p>
           </div>
+          
+        </div>
+        <div>
           
         </div>
       </footer>
