@@ -3,27 +3,27 @@
   {
     id:1,
     text:'Clean up room',
-    completed: false
+    isCompleted :  false
   },
   {
     id:2,
     text:'team meeting',
-    completed:true
+    isCompleted : true
   },
   {
     id:3,
     text:'project deadline',
-    completed:false
+    isCompleted : false
   },
   {
     id:4,
     text:'Fan meet-up',
-    completed:true
+    isCompleted : true
   },
   {
     id:5,
     text:'Shopping',
-    completed:false
+    isCompleted : false
   }
 ]
 
