@@ -3,11 +3,9 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 25px;
+    padding: 2rem;
     height: 5em;
-    
 }
-
 
 .result{
     height: 5em;
@@ -19,8 +17,8 @@
 }
 
 .result p {
-    font-size: 40px;
-    margin: 5px;
+    font-size: 2.5rem;
+    margin: 0.5rem;
     
 }
 .keypad{
